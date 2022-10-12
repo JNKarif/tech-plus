@@ -17,7 +17,7 @@ const QuizDetails = () => {
 
             <div>
                 {/* <p>Questions: {index.question}</p> */}
-                <h2>Please answer the following quiz and level up your skills</h2>
+                <h2>Please answer the following quiz and level up your skills !!!</h2>
                 {
                     quizss.map(qz =><Quizall
                     key={qz.id}
