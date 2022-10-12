@@ -15,8 +15,8 @@ const QuizDetails = () => {
     return (
         <div>
 
-            <div>
-                {/* <p>Questions: {index.question}</p> */}
+            <div className='bg-slate-400 '>
+               
                 <h2>Please answer the following quiz and level up your skills !!!</h2>
                 {
                     quizss.map(qz =><Quizall
