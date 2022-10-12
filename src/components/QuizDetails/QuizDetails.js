@@ -1,24 +1,29 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Quizall from '../QuizAll/Quizall';
 
 const QuizDetails = () => {
-    const quizss = useLoaderData().data
-    console.log(quizss.questions[0].question)
+    const quizss = useLoaderData().data.questions
+   
+    // console.log(quizss.questions[index].question)
+    // console.log(quizss.questions[0].correctAnswer);
+    console.log(quizss)
+
+    
 
 
-    const { question, options, name, questions } = quizss
     return (
         <div>
-            <h2>Quiz about: {name}</h2>
-            <div>
-                <p>Questions: {questions[0].question}</p>
 
-                <div className='options-container'>
-                    <p>a. {questions[0].options[0]}</p>
-                    <p>b. {questions[0].options[1]}</p>
-                    <p>c. {questions[0].options[2]}</p>
-                    <p>d. {questions[0].options[3]}</p>
-                </div>
+            <div>
+                {/* <p>Questions: {index.question}</p> */}
+                <h2>Please answer the following quiz and level up your skills</h2>
+                {
+                    quizss.map(qz =><Quizall
+                    key={qz.id}
+                    qz={qz}
+                    ></Quizall>)
+                }
 
             </div>
         </div>

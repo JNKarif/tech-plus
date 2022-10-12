@@ -5,7 +5,7 @@ import './Home.css'
 
 const Home = () => {
     const subjects = useLoaderData().data;
-    console.log(subjects)
+    // console.log(subjects)
     return (
         <div>
             <div className='banner-container'>

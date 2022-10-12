@@ -4,14 +4,14 @@ import QuizDetails from '../QuizDetails/QuizDetails';
 
 const Quiz = () => {
     const quizs = useLoaderData().data
+    const {name}=quizs
     console.log(quizs)
     return (
         <div>
-           <p>hello quiz</p>
-           {quizs.map(quiz=><QuizDetails
-           key={quiz.id}
-           quiz={quiz}
-           ></QuizDetails>)}
+           <p>{name}</p>
+           {quizs.map((quiz,index)=>{
+            console.log(index)
+           })}
 
 
             {/* <p>this is quizzzz{quizs.questions.question}</p>   */}
