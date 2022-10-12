@@ -1,4 +1,19 @@
+Live Link of website: https://dashing-zabaione-329c4f.netlify.app/
+
+Project Name: Tech Plus
+
+Description of this project:
+
+1. Tech Plus is single page application educational website. In this project we used javaScript, JSX, React, React-router-dom.
+
+2.  In the first page user will see some famous tech subjects like javaScript, git, react and css.
+
+3. In the 2nd page the website will have arrangement of having some quiz test based on web-development 
+
+
 # Getting Started with Create React App
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +83,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
