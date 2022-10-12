@@ -19,7 +19,7 @@ children:[
   element:<Home></Home>
   },
   {
-    path:'/quiz',
+    path:'/quiz/:quizId',
   element:<Quiz></Quiz>
   },
   {
