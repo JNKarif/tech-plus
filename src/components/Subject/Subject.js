@@ -12,6 +12,7 @@ const Subject = ({ subject }) => {
 <div className=" card card-compact w-auto p-4  shadow-xl   bg-indigo-400">
                 <figure> <img src={logo} alt=""></img> </figure>
                 <div className="card-body">
+                    
                     <h2 className="card-title">{name}</h2>
                     <p>Total quiz: {total}</p>
                     <div className="card-actions justify-end">

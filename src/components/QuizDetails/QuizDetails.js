@@ -17,7 +17,7 @@ const QuizDetails = () => {
 
             <div className='bg-slate-400 '>
                
-                <h2>Please answer the following quiz and level up your skills !!!</h2>
+                <h2 className='text-4xl font-bold'>Please answer the following quiz and level up your skills !!!</h2>
                 {
                     quizss.map(qz =><Quizall
                     key={qz.id}

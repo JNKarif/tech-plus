@@ -2,9 +2,9 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className=' bg-slate-200 grid md:grid-cols-3 gap-1 p-4'>
+        <div className=' bg-slate-200 grid md:grid-cols-1 gap-1 p-4'>
 
-<div className="card w-auto bg-neutral text-neutral-content ml-5 mb-10 mt-10">
+<div className="card w-auto bg-neutral text-neutral-content  mb-10 mt-20">
   <div className="card-body items-center text-center">
     <h2 className="card-title">What is the purpose of react router?</h2>
     <p>The main purpose of react router library is navigation of

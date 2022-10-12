@@ -1,9 +1,17 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Quizall = ({ qz }) => {
     console.log(qz)
     const { question, options, name, questions } = qz
 
+
+    const showToastMessage = () => {
+        toast.success('Success Notification !', {
+            position: toast.POSITION.TOP_RIGHT
+        });
+    };
 
     const handleAnswer = (event) => {
         const answer = event.target.innerText;
@@ -35,7 +43,13 @@ const Quizall = ({ qz }) => {
                                 handleAnswer(event)}><span>d.</span>  {options[3]}
                             </button> </p></p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Correct Answer</button>
+
+                        <div>
+            <button onClick={showToastMessage} className="btn btn-primary">Correct Answer</button>
+            <ToastContainer />
+        </div>
+
+                            <button ></button>
                             
                         </div>
                     </div>
