@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
-            <h3> What is the purpose of react router?</h3>
+            <h3 className="text-3xl font-bold underline"> What is the purpose of react router?</h3>
             <p>The main purpose of react router library is navigation of
                 components  and url.
                 User can find and understand his current location in the website
